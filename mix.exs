@@ -42,7 +42,7 @@ defmodule NervesRocks.MixProject do
       {:rocksdb, "~> 1.7.0"},
 
       # Dependencies for specific targets
-      {:nerves_system_bbb, "~> 2.8", runtime: false, targets: :bbb}
+      {:nerves_system_bbb, "~> 2.13.4", runtime: false, targets: :bbb}
     ]
   end
 
